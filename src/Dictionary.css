@@ -1,3 +1,12 @@
 .dictionary{
     text-align: center;
 }
+
+.inputField{
+margin-right:10px;
+padding:0 20px 0 2px;
+}
+
+.dictionary{
+    margin-bottom: 50px;
+}

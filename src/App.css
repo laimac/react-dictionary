@@ -4,13 +4,35 @@ margin: 0 auto;
 display:block;
 }
 
-.dictionary-logo{
-width:50%;
-margin: 0 auto;
+.App-header{
+padding:50px;
+margin:0 auto;
 display:block;
 }
 
-.coded-by{
+.header{
     color:#07204B;
-    text-align: center;
+    font-size: 80px;
+    font-family: 'Fredericka the Great', cursive;
+    box-shadow: 5px 5px 5px rgb(190, 189, 189);
+    border-radius: 4px;
+    margin:  auto;
+display:block;
+text-align: center;
+}
+
+.coded-by{
+    max-width: 30%;
+    color:#07204B;
+    font-family: monospace;
+    box-shadow: 5px 5px 5px rgb(190, 189, 189);
+    border-radius: 4px;
+    margin:  auto;
+display:block;
+text-align: center;
+}
+
+a:-webkit-any-link{
+    text-decoration: none;
+    color:#2454a7;
 }

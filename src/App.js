@@ -13,7 +13,7 @@ function App() {
       </main>
       <footer className="coded-by">
         Coded by&nbsp;
- <a className="text-decoration-none" href="https://github.com/laimac" target="_blank">
+ <a className="text-decoration-none" href="https://github.com/laimac" target="_blank" rel="noopener">
 Laima Ciselonoka
 </a>
   </footer>

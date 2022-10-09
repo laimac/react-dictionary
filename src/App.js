@@ -9,7 +9,7 @@ function App() {
         <div className="header display-1">Dictionary</div>
       </header>
       <main>
-        <Dictionary defaultKeyword="sunset"/>
+        <Dictionary defaultKeyword="adventure"/>
       </main>
       <footer className="coded-by">
         Coded by&nbsp;

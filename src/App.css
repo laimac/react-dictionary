@@ -1,7 +1,15 @@
+.App{
+    max-width:800px;
+    margin: 0 auto;
+    display: block;
+}
+
 .container{
-max-width:800px;
+max-width:500px;
 margin: 0 auto;
 display:block;
+background-color: rgb(249, 245, 245);
+padding-bottom: 50px;
 }
 
 .App-header{
@@ -16,13 +24,14 @@ display:block;
     font-family: 'Fredericka the Great', cursive;
     box-shadow: 5px 5px 5px rgb(190, 189, 189);
     border-radius: 4px;
+    background-color: white;
     margin:  auto;
 display:block;
 text-align: center;
 }
 
 .coded-by{
-    max-width: 30%;
+    max-width: 50%;
     color:#07204B;
     font-family: monospace;
     box-shadow: 5px 5px 5px rgb(190, 189, 189);
@@ -30,6 +39,8 @@ text-align: center;
     margin:  auto;
 display:block;
 text-align: center;
+font-size: 12px;
+background-color: white;
 }
 
 a:-webkit-any-link{

@@ -1,0 +1,14 @@
+h2{
+    font-family: 'Fredericka the Great', cursive;
+    color:#07204B;
+    font-size: 50px;
+    text-align: center;
+}
+
+h2:first-letter{
+    text-transform: uppercase;
+}
+
+.section{
+    color:#394d6e;
+}

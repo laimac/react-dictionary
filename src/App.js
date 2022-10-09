@@ -10,15 +10,14 @@ function App() {
         <div className="header display-1">Dictionary</div>
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="sunset"/>
       </main>
-      <footer className="coded-by fs-6">
-        Coded by
-        <div><a  className="text-decoration-none" href="https://github.com/laimac">
-          Laima Ciselonoka
-        </a>
-        </div>
-      </footer>
+      <footer className="coded-by">
+        Coded by&nbsp;
+ <a className="text-decoration-none" href="https://github.com/laimac" target="_blank">
+Laima Ciselonoka
+</a>
+  </footer>
 </div>
     </div>
   );

@@ -1,0 +1,20 @@
+.Phonetic{
+    height: 30px;
+}
+
+.Phonetic a {
+padding:8px;
+color:#4F5F7E;
+transition: all 150ms ease-in-out;
+font-size: 16px;
+}
+
+.Phonetic a:hover{
+color:black;
+font-size: 17px;
+}
+
+.pronounciation{
+    opacity: 0.8;
+    font-style: italic;
+}

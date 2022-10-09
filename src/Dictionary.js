@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
+import axios from "axios";
 import 'bootstrap/dist/css/bootstrap.css';
 import './Dictionary.css';
-import axios from "axios";
 import Results from './Results.js';
 import Photos from "./Photos";
 
@@ -51,7 +51,7 @@ if(loaded){
         return(
             <div className="dictionary">
         
-        <form onSubmit={search}>
+        <form onSubmit={handleSubmit}>
         <input type="search" onChange={handleKeywordChange} placeholder="Search for a word..." autoFocus={true} className="inputField"/>
         <button type="submit" className="btn btn-primary searchButton px-1.3rem py-0.2rem align-baseline">Search</button>
         

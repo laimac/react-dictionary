@@ -3,6 +3,7 @@ import Synonyms from "./Synonyms";
 import "./Meaning.css";
 
 export default function Meaning(props){
+
 return (
     <div className="Meaning">
     <h3>
@@ -15,12 +16,16 @@ return (
 
                     {definition.definition}
                     <br/>
-                    <span className="example">
-                        "{definition.example}"
-                    </span>
+                    <div className="example">
+                        {definition.example ? (
+                            <div>
+                                "{definition.example}"
+                            </div>
+                        ): (<div>{definition.example}</div>)}
+                    </div>
                     <br/>
-                    <span className="title">Synonyms: </span> <br />
-                    <Synonyms synonyms={definition.synonyms} />
+                    <Synonyms synonyms={props.meaning.synonyms} />
+
                 </div>
             </div>
         );

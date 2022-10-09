@@ -1,4 +1,3 @@
-import logo from './dictionary-logo.PNG'
 import './App.css';
 import Dictionary from './Dictionary.js';
 

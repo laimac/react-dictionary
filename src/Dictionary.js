@@ -25,7 +25,7 @@ function search(){
     axios.get(apiUrl).then(handleResponse);
 
     let pexelsapiKey=`563492ad6f917000010000011bc9e771f0c846e19a292ca0386e3892`;
-    let pexelsapiUrl=`https://api.pexels.com/v1/search?query=${keyword}$per_page=6`;
+    let pexelsapiUrl=`https://api.pexels.com/v1/search?query=${keyword}&per_page=6`;
     axios.get(pexelsapiUrl, {
         headers: {"Authorization":
     `Bearer ${pexelsapiKey}`}}
